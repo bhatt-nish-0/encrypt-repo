@@ -16,6 +16,7 @@ public class UserController {
 
     @GetMapping("/a")
     public List<User> x() {
+        System.out.println("this is a test");
         return userRepo.findAll();
     }
 }
